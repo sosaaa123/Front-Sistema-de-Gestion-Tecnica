@@ -1,0 +1,126 @@
+.inventario-cont {
+  background-color: white;
+  width: 80%;
+  margin: 1rem auto 2rem auto;
+
+  padding: 0;
+
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.agg_element {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.agg_element div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.agg_element button {
+  border: none;
+  background-color: inherit;
+  font-size: 0.8rem;
+  background-color: aliceblue;
+  border-radius: 12px;
+  padding: 0.8rem 0;
+}
+
+.agg_element p {
+  margin: 0 0.5rem;
+}
+
+.agg_element {
+  padding: 1rem;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.agg_element h2 {
+  font-weight: 400;
+  margin: 0%;
+  padding: 2rem;
+  width: 80%;
+}
+
+.colums {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.9rem 2rem;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  width: 100%;
+}
+
+.colums div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 0;
+}
+
+.element {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+.element div {
+  padding: 0.8rem 0;
+}
+
+.c-nombre,
+.c-estado {
+  width: 20%;
+}
+
+.c-cantidad,
+.c-disponibles,
+.iddd,
+.c-info {
+  width: 15%;
+}
+
+.c-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-info button {
+  border: none;
+  background-color: #dfebf9;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+}
+
+.c-info i {
+  color: #8abcf6;
+}
+
+.cargando {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding: 10rem;
+  background-color: white;
+  border: 2px solid grey;
+  margin: 1rem auto 1rem auto;
+  border-radius: 12px;
+}
+
+.cargando h2 {
+  font-size: 1.1rem;
+  font-weight: 300;
+}

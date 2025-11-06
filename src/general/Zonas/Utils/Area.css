@@ -1,0 +1,118 @@
+.fcont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.programacion {
+  flex: 1;
+  flex-direction: column;
+  margin-left: 12rem;
+  transition: margin-left 0.3s ease;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.programacion.abn {
+  margin-left: 80px;
+}
+
+.programacion h1 {
+  padding: 2rem;
+  background: linear-gradient(to right, #f04343, #f05e5e);
+  color: white;
+}
+
+.nvv-prg {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.nvv-prg div {
+  cursor: pointer;
+  padding: 1.8rem 1.8rem 1.8rem 1.8rem;
+}
+
+.nvv-prg div button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  height: 100%;
+}
+
+.nvv-prg div i {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.nvv-prg div {
+  transition: opacity 1s ease;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.nvv-prg div:hover {
+  background-color: #e8eef5;
+  color: #2c3e50;
+}
+
+.nv-prg {
+  font-weight: 400;
+}
+
+.stacs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+  gap: 2rem;
+}
+
+.stacs-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2rem 3rem;
+  box-shadow: 1px 2px 1px 1px #d1c6c6;
+  border-radius: 30px;
+  flex: 1;
+  max-width: 400px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.btnss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+}
+
+.btnss button {
+  padding: 1.1rem 3rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.mmmpp {
+  width: 100%;
+  margin: auto;
+}

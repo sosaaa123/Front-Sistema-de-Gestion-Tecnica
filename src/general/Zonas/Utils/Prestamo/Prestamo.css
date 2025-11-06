@@ -1,0 +1,41 @@
+.prestamo {
+  width: 80%;
+  margin: 1rem auto 1rem auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(169, 168, 168);
+  padding: 0s;
+}
+
+.prestamo h2 {
+  padding: 1.5rem;
+  width: 100%;
+  margin: 0%;
+  border-bottom: 1px solid rgb(169, 168, 168);
+}
+
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hghg {
+  width: 50%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.nml {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}

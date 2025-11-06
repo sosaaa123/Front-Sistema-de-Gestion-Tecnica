@@ -1,0 +1,145 @@
+.registros-cont {
+  background-color: white;
+  width: 90%;
+  margin: 1rem auto 2rem auto;
+
+  padding: 0;
+
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.registros-cont h2 {
+  font-weight: 400;
+  margin: 0%;
+  padding: 2rem;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.columnas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.9rem 2rem;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.registro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 2rem;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.registro div {
+  padding: 1.1rem 0;
+}
+
+.columna-nombre {
+  width: 18%;
+  text-align: left;
+  padding: 0 0.5rem;
+}
+
+.columna-curso {
+  width: 12%;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.columna-elemento {
+  width: 18%;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.columna-cantidad {
+  width: 8%;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.columna-fecha {
+  width: 12%;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.columna-hora {
+  width: 8%;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.columna-estado {
+  width: 10%;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.columna-baja {
+  width: 14%;
+  text-align: center;
+  padding: 0 0.5rem;
+  transition: opacity 1s ease;
+  cursor: pointer;
+}
+
+.columna-baja button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.columna-baja button p {
+  color: black;
+}
+
+.columna-baja:hover p {
+  color: rgb(169, 168, 168);
+}
+
+.terminado {
+  color: grey;
+}
+
+.oncurse {
+  color: #8fbff7;
+}
+
+.notcurse {
+  color: #fd9393;
+}
+
+.columna-baja:hover {
+  background-color: rgb(225, 240, 254);
+}
+
+.columnas div p {
+  font-weight: 600;
+  margin: 0.3rem 0;
+}
+
+.registro div p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.cargando {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding: 10rem;
+  background-color: white;
+  border: 2px solid grey;
+  margin: 1rem auto 1rem auto;
+  border-radius: 12px;
+}
+
+.cargando h2 {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
